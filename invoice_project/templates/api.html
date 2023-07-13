@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Root</title>
+</head>
+<body>
+    <h1>API Root</h1>
+    <ul>
+        {% for url in url_list %}
+            <li><a href="{{ url.url }}">{{ url.name }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
